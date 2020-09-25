@@ -1,6 +1,6 @@
 # 2020-1 AV1 Simulado
 
-Simulado avaliação 1 - Elementos de Sistemas
+**Avaliação 1 - Elementos de Sistemas - 20 pts HW**
 
 1. Teórica (blackboard)
 1. Prática (github)
