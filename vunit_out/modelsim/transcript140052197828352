@@ -1,0 +1,10 @@
+# do /home/borg/.local/lib/python3.6/site-packages/vunit/sim_if/tcl_read_eval_loop.tcl
+# vsim -modelsimini /home/borg/Documents/Insper/3Sem/20b-ele-av1/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Insper/3Sem/20b-ele-av1/vunit_out/test_output/lib.tb_q1.all_7002e7522f84b5a0acaeaa53335eb5a4635076a2/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_q1(tb) -L vunit_lib -L lib -g/tb_q1/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Insper/3Sem/20b-ele-av1/vunit_out/test_output/lib.tb_q1.all_7002e7522f84b5a0acaeaa53335eb5a4635076a2/,tb path : /home/borg/Documents/Insper/3Sem/20b-ele-av1/testes/,use_color : true" 
+# Start time: 09:04:55 on Sep 25,2020
+# ** Warning: Design size of 21418 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Break in Subprogram stop at /home/borg/.local/lib/python3.6/site-packages/vunit/vhdl/core/src/stop_body_2008p.vhd line 13
+# Stopped at /home/borg/.local/lib/python3.6/site-packages/vunit/vhdl/core/src/stop_body_2008p.vhd line 13
+# End time: 09:04:55 on Sep 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

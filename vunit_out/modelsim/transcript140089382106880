@@ -1,0 +1,33 @@
+# do /home/borg/.local/lib/python3.6/site-packages/vunit/sim_if/tcl_read_eval_loop.tcl
+# vsim -modelsimini /home/borg/Documents/Insper/3Sem/20b-ele-av1/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Insper/3Sem/20b-ele-av1/vunit_out/test_output/lib.tb_q2.all_20d91b5ec252251d120f195cda0ff836a47c7cf1/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_q2(tb) -L vunit_lib -L lib -g/tb_q2/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Insper/3Sem/20b-ele-av1/vunit_out/test_output/lib.tb_q2.all_20d91b5ec252251d120f195cda0ff836a47c7cf1/,tb path : /home/borg/Documents/Insper/3Sem/20b-ele-av1/testes/,use_color : true" 
+# Start time: 09:00:52 on Sep 25,2020
+# ** Warning: Design size of 21384 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_q2/u1/s has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Error: Falha em teste
+#    Time: 200 ps  Iteration: 0  Process: /tb_q2/main File: /home/borg/Documents/Insper/3Sem/20b-ele-av1/testes/tb_q2.vhd
+# Break in Process main at /home/borg/Documents/Insper/3Sem/20b-ele-av1/testes/tb_q2.vhd line 32
+# Stopped at /home/borg/Documents/Insper/3Sem/20b-ele-av1/testes/tb_q2.vhd line 32
+# 
+# Test Run Failed!
+# 
+# Stack trace result from 'tb' command
+#  /home/borg/Documents/Insper/3Sem/20b-ele-av1/testes/tb_q2.vhd 32 return [address 0xf6f09439] Process main
+# 
+# 
+# Surrounding code from 'see' command
+#   27 :   begin
+#   28 :     test_runner_setup(runner, runner_cfg);
+#   29 : 
+#   30 :     a(3 downto 1) <= "000";
+#   31 :     wait for 200 ps;
+# ->32 :     assert(a(0) = '1')  report "Falha em teste" severity error;
+#   33 : 
+#   34 :     a(3 downto 1) <= "001";
+#   35 :     wait for 200 ps;
+#   36 :     assert(a(0) = '1')  report "Falha em teste" severity error;
+# 
+# End time: 09:00:52 on Sep 25,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3

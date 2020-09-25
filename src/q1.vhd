@@ -10,5 +10,6 @@ end entity;
 architecture  rtl OF q1 IS
 
 begin
-
+	Q <= (A and B) or (B and C);
+	
 end architecture;
