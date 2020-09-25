@@ -2,8 +2,6 @@
 
 Simulado avaliação 1 - Elementos de Sistemas
 
-O Simulado é composto de duas partes: 
-
 1. Teórica (blackboard)
 1. Prática (github)
 
